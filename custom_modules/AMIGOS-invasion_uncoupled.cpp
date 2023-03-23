@@ -675,11 +675,11 @@ void setup_microenvironment( void )
 	default_microenvironment_options.Dirichlet_condition_vector = bc_vector;
     
 	// Temperarily eliminating leader/follower signal	
-    std::cout<<default_microenvironment_options.Dirichlet_condition_vector<<std::endl;
-	default_microenvironment_options.Dirichlet_condition_vector[1] = 0; // normoxic conditions
-	std::cout<<"Testing something in the uE"<<std::endl;
-	std::cout<<default_microenvironment_options.Dirichlet_condition_vector[1]<<std::endl;
-	std::cout<<default_microenvironment_options.Dirichlet_condition_vector<<std::endl;
+    // std::cout<<default_microenvironment_options.Dirichlet_condition_vector<<std::endl;
+	// default_microenvironment_options.Dirichlet_condition_vector[1] = 0; // normoxic conditions
+	// std::cout<<"Testing something in the uE"<<std::endl;
+	// std::cout<<default_microenvironment_options.Dirichlet_condition_vector[1]<<std::endl;
+	// std::cout<<default_microenvironment_options.Dirichlet_condition_vector<<std::endl;
 	// default_microenvironment_options.Dirichlet_condition_vector[2] = 0; // normoxic conditions
     
 	initialize_microenvironment(); 
